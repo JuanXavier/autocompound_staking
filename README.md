@@ -43,7 +43,9 @@ MAX_TOTAL_SUPPLY = type(uint128).max  => Equivalent to 3402823669209384634633746
 
 This would represent an return of 10% over a period of 1 year (365 days) with a minimum lock time of 60 days, with availability for autocompounding when re-staking tokens.
 
-### Testing
+## Testing
+
+#### **As a pre-requisite, you must have Foundry installed: https://book.getfoundry.sh/getting-started/installation**
 
 To clone this repository and run the tests in a single line, run the following command:
 
@@ -53,7 +55,7 @@ To clone this repository and run the tests in a single line, run the following c
 git clone https://github.com/JuanXavier/autocompound_staking ; cd ./autocompound_staking ; forge test
 ```
 
-**_In Linux/Max terminal_**
+**_In Linux/Mac terminal_**
 
 ```copy
 git clone https://github.com/JuanXavier/autocompound_staking && cd autocompound_staking && forge test
